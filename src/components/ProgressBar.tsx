@@ -18,7 +18,7 @@ const ProgressBar = ({ value = 0, onComplete = () => {} }) => {
         aria-valuenow={percent}
         role="progressbar"
         style={{
-          width: "100%",
+          width: `${value}`,
           backgroundColor: "#00c251",
           height: "100%",
         }}
