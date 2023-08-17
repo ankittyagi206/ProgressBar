@@ -15,7 +15,7 @@
 
 .progressbarContainer {
   height: 20px;
-  width: 500px;
+  width: 50%;
   background-color: rgb(233, 236, 239);
   border: 1px solid black;
   border-radius: 15px;
@@ -30,4 +30,29 @@
   justify-content: center;
   align-items: center;
   position: absolute;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.image-container {
+}
+
+.cursor {
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  position: fixed;
 }
